@@ -54,6 +54,12 @@ def main():
             print_top_scores()
         else:
             break
+class results():
+    def __int__(self, score, player_name, date):
+
 
 main()
 
+score_file =
+with open("score_list.txt", "w" ) as score_file:
+    score_file.write(str(score_data.__dict__))
